@@ -1,1 +1,4 @@
 .monitor
+*~
+.*.sw?
+node_modules

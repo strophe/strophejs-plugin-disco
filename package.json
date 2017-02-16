@@ -1,0 +1,27 @@
+{
+  "name": "strophejs-plugin-disco",
+  "version": "0.0.1",
+  "description": "A strophe.js plugin for XEP-0030 Service Discovery",
+  "main": "strophe.disco.js",
+  "scripts": {
+    "test": "jasmine mon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strophe/strophejs-plugin-disco.git"
+  },
+  "keywords": [
+    "xmpp",
+    "strophe",
+    "strophe.js"
+  ],
+  "author": "The strophe plugin developers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/strophe/strophejs-plugin-disco/issues"
+  },
+  "homepage": "https://github.com/strophe/strophejs-plugin-disco#readme",
+  "dependencies": {
+    "strophe.js": "^1.2.12"
+  }
+}
