@@ -1,13 +1,17 @@
 # strophe.disco.js
 
-strophe.disco.js is a plugin to provide Service discovery
-( [XEP-0030>](http://xmpp.org/extensions/xep-0030.html) ).
+Plugin for [strophe.js](https://www.npmjs.com/package/strophe.js) to provide Service Discovery
+([XEP-0030](http://xmpp.org/extensions/xep-0030.html)).
+
+## Install
+
+    npm install strophejs-plugin-disco
 
 There are two plugins available.
 
-## Plugin A
+## Plugin A (default)
 
-This [plugin](strophejs-plugins/tree/master/disco/strophe.disco.js) allows to
+This [plugin](https://github.com/strophe/strophejs-plugin-disco/blob/master/src/strophe.disco.js) allows to
 send disco queries and registers handlers that respond to incoming queries.
 
 ### Usage
@@ -26,7 +30,7 @@ use node with jasmine-node plugin to run the specs
 
 ## Plugin B
 
-The [plugin](strophejs-plugins/tree/master/disco/public/javascript/strophe.disco.js)
+The [plugin](https://github.com/strophe/strophejs-plugin-disco/blob/master/public/javascript/strophe.disco.js)
 facilitates client and server side handling of discovery messages.
 
 ### Client Side
@@ -59,7 +63,7 @@ and then query for them using the items method
 
 See the specs for details.
 
-### Run Specs
+## Tests
 
 To run the specs you should install jasmine-tool for nodejs via npm and update
 the references to the external libraries (Strophe, jQuery) in jasmine.json.
