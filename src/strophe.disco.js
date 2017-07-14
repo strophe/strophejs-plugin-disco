@@ -1,12 +1,3 @@
-/*
-  Copyright 2010, François de Metz <francois@2metz.fr>
-*/
-
-/**
- * Disco Strophe Plugin
- * Implement http://xmpp.org/extensions/xep-0030.html
- * TODO: manage node hierarchies, and node on info request
- */
 import { $iq, Strophe } from 'strophe.js';
 
 Strophe.addConnectionPlugin('disco',

@@ -1,6 +1,6 @@
 {
   "name": "strophejs-plugin-disco",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A strophe.js plugin for XEP-0030 Service Discovery",
   "main": "lib/strophe.disco.js",
   "scripts": {
@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/strophe/strophejs-plugin-disco#readme",
   "devDependencies": {
-    "rollup": "^0.45.0"
+    "rollup": "^0.45.2"
   },
   "peerDependencies": {
     "strophe.js": "^1.2.12"
