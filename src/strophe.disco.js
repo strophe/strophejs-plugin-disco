@@ -36,6 +36,12 @@ Strophe.addConnectionPlugin('disco',
      */
     addIdentity: function(category, type, name, lang)
     {
+        if (typeof name === 'undefined') {
+           name = '';
+        }
+        if (typeof lang === 'undefined') {
+           lang = '';
+        }
         for (var i=0; i<this._identities.length; i++)
         {
             if (this._identities[i].category == category &&
